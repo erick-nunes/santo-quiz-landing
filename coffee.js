@@ -13,8 +13,17 @@
 
   // ---------- Markup ----------
   const html = `
-    <button type="button" class="coffee-fab" id="coffeeFab" aria-label="Me pague um café">
-      <span class="emoji">☕</span><span>Me pague um café</span>
+    <button type="button" class="coffee-fab" id="coffeeFab" aria-label="Apoiar com um café via Pix">
+      <span class="fab-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 8h1a4 4 0 0 1 0 8h-1"/>
+          <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/>
+          <path d="M6 2c0 1-1 1-1 2s1 1 1 2"/>
+          <path d="M10 2c0 1-1 1-1 2s1 1 1 2"/>
+          <path d="M14 2c0 1-1 1-1 2s1 1 1 2"/>
+        </svg>
+      </span>
+      <span class="fab-label">Me pague um café</span>
     </button>
     <div class="coffee-backdrop" id="coffeeBackdrop"></div>
     <div class="coffee-modal" id="coffeeModal" role="dialog" aria-modal="true" aria-labelledby="coffeeTitle">
