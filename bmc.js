@@ -28,13 +28,4 @@
   const host = document.createElement('div');
   host.innerHTML = html;
   document.body.appendChild(host);
-
-  const fab = document.getElementById('bmcFab');
-
-  function updateFabVisibility() {
-    if (window.scrollY > 300) fab.classList.add('visible');
-    else fab.classList.remove('visible');
-  }
-  window.addEventListener('scroll', updateFabVisibility, { passive: true });
-  updateFabVisibility();
 })();

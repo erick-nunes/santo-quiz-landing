@@ -73,14 +73,6 @@
 
   let currentPayload = '';
 
-  // ---------- FAB visibility ----------
-  function updateFabVisibility() {
-    if (window.scrollY > 300) fab.classList.add('visible');
-    else fab.classList.remove('visible');
-  }
-  window.addEventListener('scroll', updateFabVisibility, { passive: true });
-  updateFabVisibility();
-
   // ---------- Modal open/close ----------
   function openModal() {
     backdrop.classList.add('open');
