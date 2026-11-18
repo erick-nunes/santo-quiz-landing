@@ -25,7 +25,7 @@
     <div class="coffee-modal" id="coffeeModal" role="dialog" aria-modal="true" aria-labelledby="coffeeTitle">
       <button type="button" class="coffee-close" id="coffeeClose" aria-label="Fechar">×</button>
       <h3 id="coffeeTitle">Me ajude a manter esse projeto</h3>
-      <p class="sub">O Santo Quiz é gratuito e sem anúncios. Se quiser apoiar, envie um Pix de qualquer valor — serve de cafezinho ou de hospedagem. 🙏</p>
+      <p class="sub">O Santo Quiz é gratuito e sem anúncios. Se quiser apoiar, envie um Pix de qualquer valor, nos ajudará a pagar os custos com servidores e taxas de desenvolvimento. 🙏</p>
 
       <div class="coffee-chips" id="coffeeChips">
         ${PRESETS.map(
