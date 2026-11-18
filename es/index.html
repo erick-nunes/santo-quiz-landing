@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#003b8e" />
-    <title>Santo Quiz — Quiz católico para toda la familia</title>
-    <meta name="description" content="Fortalece tu fe con Santo Quiz: tres modos de quiz católico — Clásico, Quiz de la Misa y Quiz de los Santos. Gratis, sin anuncios." />
+    <title>Santo Quiz · App de Quiz Católico Gratis para toda la familia</title>
+    <meta name="description" content="App católica gratuita con tres modos de quiz: Biblia, Quiz de la Misa (lecturas del domingo) y Quiz de los Santos. Sin anuncios, sin compras internas, para toda la familia." />
+    <meta name="keywords" content="quiz católico, app católica, quiz de la biblia, quiz de los santos, quiz de la misa, app católica gratis, juego católico familia, liturgia del domingo" />
+    <meta name="author" content="Erick Nunes Carvalho" />
 
     <!-- Canonical + alternates -->
     <link rel="canonical" href="https://santoquiz.com/es/" />
@@ -39,6 +41,121 @@
     <link rel="icon" href="/img/icon.png" sizes="any" />
     <link rel="apple-touch-icon" href="/img/icon.png" />
     <link rel="stylesheet" href="/style.css" />
+
+    <!-- Structured data: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Santo Quiz",
+      "url": "https://santoquiz.com/",
+      "inLanguage": ["es-ES", "pt-BR", "en-US"],
+      "description": "App católica gratuita con tres modos de quiz: Biblia, Quiz de la Misa y Quiz de los Santos."
+    }
+    </script>
+
+    <!-- Structured data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Santo Quiz",
+      "url": "https://santoquiz.com/",
+      "logo": "https://santoquiz.com/img/icon.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Erick Nunes Carvalho"
+      },
+      "email": "eu@ericknunes.dev",
+      "sameAs": [
+        "https://apps.apple.com/app/id6823418281",
+        "https://buymeacoffee.com/ericknc"
+      ]
+    }
+    </script>
+
+    <!-- Structured data: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Santo Quiz",
+      "operatingSystem": "iOS",
+      "applicationCategory": "EducationApplication",
+      "applicationSubCategory": "Religion",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Quiz católico con tres modos: Clásico (Biblia, santos, liturgia), Quiz de la Misa (lecturas del domingo) y Quiz de los Santos (reconocimiento por imagen).",
+      "author": {
+        "@type": "Person",
+        "name": "Erick Nunes Carvalho"
+      },
+      "installUrl": "https://apps.apple.com/app/id6823418281",
+      "image": "https://santoquiz.com/img/icon.png",
+      "inLanguage": "es-ES"
+    }
+    </script>
+
+    <!-- Structured data: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Santo Quiz es gratis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, Santo Quiz es 100% gratis, sin anuncios, sin compras internas y sin seguimiento. Lo mantiene el autor y las donaciones voluntarias."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué modos de quiz hay disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tres modos: Quiz Clásico (preguntas sobre la Biblia, los santos, la liturgia y la tradición católica), Quiz de la Misa (preguntas conectadas con las lecturas del domingo, actualizado cada semana) y Quiz de los Santos (reconocer santos por su imagen, en formato baraja)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿En qué dispositivos funciona?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santo Quiz está disponible en iPhone y iPad en la App Store. La versión para Android en Google Play está en preparación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El contenido está revisado por católicos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, todo el contenido está escrito y revisado por católicos practicantes, con fuentes en la Biblia, el Catecismo de la Iglesia Católica, la liturgia y la Tradición."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo jugar en familia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, Santo Quiz está hecho para jugarse en familia — niños, padres y abuelos. El Quiz de los Santos, con su formato baraja de imágenes, es especialmente bueno para jugar en grupo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo funciona el Quiz de la Misa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cada semana se publica un nuevo quiz con preguntas basadas en las lecturas del domingo (primera lectura, salmo, segunda lectura y evangelio). Ideal para preparar el corazón antes de la Misa o repasarlas luego en familia."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <nav class="nav">
@@ -71,7 +188,7 @@
           </div>
         </div>
         <div class="phone">
-          <img src="/img/shot-home.png" alt="Pantalla principal de Santo Quiz" />
+          <img src="/img/shot-home.png" alt="Pantalla principal de Santo Quiz con los tres modos de quiz católico" />
         </div>
       </div>
     </header>
@@ -111,10 +228,38 @@
         </ul>
       </div>
       <div class="showcase-shots">
-        <img src="/img/shot-home.png" alt="Pantalla principal de Santo Quiz" />
-        <img src="/img/shot-quiz.png" alt="Pantalla de pregunta de Santo Quiz" />
-        <img src="/img/shot-santos.png" alt="Pantalla del Quiz de los Santos" />
+        <img src="/img/shot-home.png" alt="Pantalla principal de Santo Quiz con los modos Clásico, Quiz de la Misa y Quiz de los Santos" />
+        <img src="/img/shot-quiz.png" alt="Pantalla de pregunta de Santo Quiz con opciones de respuesta católicas" />
+        <img src="/img/shot-santos.png" alt="Quiz de los Santos mostrando la foto de un santo católico para reconocimiento" />
       </div>
+    </section>
+
+    <section class="faq">
+      <h2>Preguntas frecuentes</h2>
+      <details>
+        <summary>¿Santo Quiz es gratis?</summary>
+        <p>Sí, Santo Quiz es 100% gratis, sin anuncios, sin compras internas y sin seguimiento. Lo mantiene el autor y las donaciones voluntarias.</p>
+      </details>
+      <details>
+        <summary>¿Qué modos de quiz hay disponibles?</summary>
+        <p>Tres modos: <strong>Quiz Clásico</strong> (preguntas sobre la Biblia, los santos, la liturgia y la tradición católica), <strong>Quiz de la Misa</strong> (preguntas conectadas con las lecturas del domingo, actualizado cada semana) y <strong>Quiz de los Santos</strong> (reconocer santos por su imagen, en formato baraja).</p>
+      </details>
+      <details>
+        <summary>¿En qué dispositivos funciona?</summary>
+        <p>Santo Quiz está disponible en iPhone y iPad en la App Store. La versión para Android en Google Play está en preparación.</p>
+      </details>
+      <details>
+        <summary>¿El contenido está revisado por católicos?</summary>
+        <p>Sí, todo el contenido está escrito y revisado por católicos practicantes, con fuentes en la Biblia, el Catecismo de la Iglesia Católica, la liturgia y la Tradición.</p>
+      </details>
+      <details>
+        <summary>¿Puedo jugar en familia?</summary>
+        <p>Sí, Santo Quiz está hecho para jugarse en familia — niños, padres y abuelos. El Quiz de los Santos, con su formato baraja de imágenes, es especialmente bueno para jugar en grupo.</p>
+      </details>
+      <details>
+        <summary>¿Cómo funciona el Quiz de la Misa?</summary>
+        <p>Cada semana se publica un nuevo quiz con preguntas basadas en las lecturas del domingo (primera lectura, salmo, segunda lectura y evangelio). Ideal para preparar el corazón antes de la Misa o repasarlas luego en familia.</p>
+      </details>
     </section>
 
     <section class="cta-final">

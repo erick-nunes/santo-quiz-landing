@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#003b8e" />
-    <title>Santo Quiz — A Catholic quiz for the whole family</title>
-    <meta name="description" content="Strengthen your faith with Santo Quiz: three Catholic quiz modes — Classic, Sunday Mass Quiz and Saints Quiz. Free, no ads." />
+    <title>Santo Quiz · Free Catholic Quiz App for the whole family</title>
+    <meta name="description" content="Free Catholic app with three quiz modes: Bible, Sunday Mass Quiz (Sunday readings) and Saints Quiz. No ads, no in-app purchases, for the whole family." />
+    <meta name="keywords" content="catholic quiz, catholic app, bible quiz app, saints quiz, sunday mass quiz, free catholic app, catholic family game, sunday liturgy" />
+    <meta name="author" content="Erick Nunes Carvalho" />
 
     <!-- Canonical + alternates -->
     <link rel="canonical" href="https://santoquiz.com/en/" />
@@ -39,6 +41,121 @@
     <link rel="icon" href="/img/icon.png" sizes="any" />
     <link rel="apple-touch-icon" href="/img/icon.png" />
     <link rel="stylesheet" href="/style.css" />
+
+    <!-- Structured data: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Santo Quiz",
+      "url": "https://santoquiz.com/",
+      "inLanguage": ["en-US", "pt-BR", "es-ES"],
+      "description": "Free Catholic app with three quiz modes: Bible, Sunday Mass Quiz and Saints Quiz."
+    }
+    </script>
+
+    <!-- Structured data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Santo Quiz",
+      "url": "https://santoquiz.com/",
+      "logo": "https://santoquiz.com/img/icon.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Erick Nunes Carvalho"
+      },
+      "email": "eu@ericknunes.dev",
+      "sameAs": [
+        "https://apps.apple.com/app/id6823418281",
+        "https://buymeacoffee.com/ericknc"
+      ]
+    }
+    </script>
+
+    <!-- Structured data: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Santo Quiz",
+      "operatingSystem": "iOS",
+      "applicationCategory": "EducationApplication",
+      "applicationSubCategory": "Religion",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Catholic quiz app with three modes: Classic (Bible, saints, liturgy), Sunday Mass Quiz (Sunday readings) and Saints Quiz (image recognition).",
+      "author": {
+        "@type": "Person",
+        "name": "Erick Nunes Carvalho"
+      },
+      "installUrl": "https://apps.apple.com/app/id6823418281",
+      "image": "https://santoquiz.com/img/icon.png",
+      "inLanguage": "en-US"
+    }
+    </script>
+
+    <!-- Structured data: FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Santo Quiz free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Santo Quiz is 100% free, with no ads, no in-app purchases and no tracking. It is maintained by the author and by voluntary donations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which quiz modes are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three modes: Classic Quiz (questions on the Bible, saints, liturgy and Catholic tradition), Sunday Mass Quiz (questions tied to this Sunday's readings, updated weekly) and Saints Quiz (recognize saints from their image, in a card-deck format)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which devices does it work on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santo Quiz is currently available on iPhone and iPad via the App Store. The Android version on Google Play is coming soon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the content reviewed by Catholics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all content is written and reviewed by practicing Catholics, with sources in Scripture, the Catechism of the Catholic Church, the liturgy and Tradition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play as a family?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Santo Quiz is made to be played as a family — children, parents and grandparents. The Saints Quiz, with its card-deck image format, is especially good for playing in group."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the Sunday Mass Quiz work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every week a new quiz is published with questions based on the Sunday readings (first reading, psalm, second reading and Gospel). Perfect to prepare your heart before Mass or review it afterwards as a family."
+          }
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <nav class="nav">
@@ -71,7 +188,7 @@
           </div>
         </div>
         <div class="phone">
-          <img src="/img/shot-home.png" alt="Santo Quiz home screen" />
+          <img src="/img/shot-home.png" alt="Santo Quiz home screen showing the three Catholic quiz modes" />
         </div>
       </div>
     </header>
@@ -111,10 +228,38 @@
         </ul>
       </div>
       <div class="showcase-shots">
-        <img src="/img/shot-home.png" alt="Santo Quiz home screen" />
-        <img src="/img/shot-quiz.png" alt="Santo Quiz question screen" />
-        <img src="/img/shot-santos.png" alt="Saints Quiz screen" />
+        <img src="/img/shot-home.png" alt="Santo Quiz home screen with Classic, Sunday Mass and Saints quiz modes" />
+        <img src="/img/shot-quiz.png" alt="Santo Quiz question screen with multiple-choice Catholic answers" />
+        <img src="/img/shot-santos.png" alt="Saints Quiz showing a Catholic saint's photo for recognition" />
       </div>
+    </section>
+
+    <section class="faq">
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>Is Santo Quiz free?</summary>
+        <p>Yes, Santo Quiz is 100% free, with no ads, no in-app purchases and no tracking. It is maintained by the author and by voluntary donations.</p>
+      </details>
+      <details>
+        <summary>Which quiz modes are available?</summary>
+        <p>Three modes: <strong>Classic Quiz</strong> (questions on the Bible, saints, liturgy and Catholic tradition), <strong>Sunday Mass Quiz</strong> (questions tied to this Sunday's readings, updated weekly) and <strong>Saints Quiz</strong> (recognize saints from their image, in a card-deck format).</p>
+      </details>
+      <details>
+        <summary>Which devices does it work on?</summary>
+        <p>Santo Quiz is currently available on iPhone and iPad via the App Store. The Android version on Google Play is coming soon.</p>
+      </details>
+      <details>
+        <summary>Is the content reviewed by Catholics?</summary>
+        <p>Yes, all content is written and reviewed by practicing Catholics, with sources in Scripture, the Catechism of the Catholic Church, the liturgy and Tradition.</p>
+      </details>
+      <details>
+        <summary>Can I play as a family?</summary>
+        <p>Yes, Santo Quiz is made to be played as a family — children, parents and grandparents. The Saints Quiz, with its card-deck image format, is especially good for playing in group.</p>
+      </details>
+      <details>
+        <summary>How does the Sunday Mass Quiz work?</summary>
+        <p>Every week a new quiz is published with questions based on the Sunday readings (first reading, psalm, second reading and Gospel). Perfect to prepare your heart before Mass or review it afterwards as a family.</p>
+      </details>
     </section>
 
     <section class="cta-final">

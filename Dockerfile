@@ -6,6 +6,8 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copia o site
 COPY index.html /usr/share/nginx/html/
+COPY robots.txt /usr/share/nginx/html/
+COPY sitemap.xml /usr/share/nginx/html/
 COPY style.css /usr/share/nginx/html/
 COPY pix.js /usr/share/nginx/html/
 COPY coffee.js /usr/share/nginx/html/
