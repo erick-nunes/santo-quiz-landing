@@ -6,7 +6,7 @@
   const CONFIG = {
     name: 'Erick Nunes Carvalho',
     initials: 'EN',
-    photo: '/img/avatar.jpg', // Troque pra foto real quando subir
+    photo: '/img/avatar.jpg?v=1', // bump quando trocar a foto
     email: 'eu@ericknunes.dev',
     phone: '+55 16 99706-5511',
     whatsapp: '5516997065511',
