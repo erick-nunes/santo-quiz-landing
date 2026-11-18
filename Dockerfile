@@ -13,6 +13,7 @@ COPY pix.js /usr/share/nginx/html/
 COPY coffee.js /usr/share/nginx/html/
 COPY bmc.js /usr/share/nginx/html/
 COPY animate.js /usr/share/nginx/html/
+COPY contact.js /usr/share/nginx/html/
 COPY img /usr/share/nginx/html/img
 COPY pt /usr/share/nginx/html/pt
 COPY en /usr/share/nginx/html/en
