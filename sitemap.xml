@@ -7,7 +7,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/" />
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -17,7 +17,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/" />
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -27,8 +27,68 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/" />
     <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/" />
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://santoquiz.com/pt/privacidade/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://santoquiz.com/pt/privacidade/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/privacidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/privacidade/" />
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://santoquiz.com/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://santoquiz.com/pt/privacidade/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/privacidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/privacidade/" />
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://santoquiz.com/es/privacidad/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://santoquiz.com/pt/privacidade/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/privacidad/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/privacidade/" />
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://santoquiz.com/pt/suporte/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://santoquiz.com/pt/suporte/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/soporte/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/suporte/" />
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://santoquiz.com/en/support/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://santoquiz.com/pt/suporte/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/soporte/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/suporte/" />
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://santoquiz.com/es/soporte/</loc>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://santoquiz.com/pt/suporte/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://santoquiz.com/en/support/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://santoquiz.com/es/soporte/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://santoquiz.com/pt/suporte/" />
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
